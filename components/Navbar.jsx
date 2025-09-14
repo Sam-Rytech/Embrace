@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <header className="w-full bg-white shadow-sm fixed top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center py-4">
-        <Image src="/Logo.png" width={140} height={40}></Image>
+        <Image src="/Logo.png" width={140} height={40} alt='Logo'></Image>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex gap-6 text-gray-700 font-medium">
