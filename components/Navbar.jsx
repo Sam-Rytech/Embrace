@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
-import image from 'next/image'
+import Image from 'next/image'
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <header className="w-full bg-white shadow-sm fixed top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center py-4">
-        <Image href="/Logo.png"></Image>
+        <Image src="/Logo.png" width={140} height={40}></Image>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex gap-6 text-gray-700 font-medium">
