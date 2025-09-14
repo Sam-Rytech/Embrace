@@ -1,3 +1,18 @@
+"use client"
+import Navbar from '@/components/Navbar'
+import Hero from '@/components/Hero'
+import Companies from '@/components/Companies'
+import Commitments from '@/components/Commitments'
+import HowItWorks from '@/components/HowItWorks'
+import OurWork from '@/components/OurWork'
+import CTASection from '@/components/CTASection'
+import Team from '@/components/Team'
+import Testimonials from '@/components/Testimonials'
+import FAQ from '@/components/FAQ'
+import FinalCTA from '@/components/FinalCTA'
+import Footer from '@/components/Footer'
+
+
 export default function HomePage() {
   return (
     <main className="flex flex-col min-h-screen">
